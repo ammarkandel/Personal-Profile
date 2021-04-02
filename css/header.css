@@ -1,0 +1,39 @@
+header {
+  height: 40rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header h5 {
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+header h1 {
+  font-size: 4rem;
+  color: var(--dark-color);
+}
+
+header p {
+  font-size: 1.5rem;
+  color: var(--dark-color);
+}
+
+.personal-img {
+  background: url('../images/me.jpeg') no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+header li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+header a {
+  font-size: 2rem;
+  color: var(--seventh-color);
+}
