@@ -1,9 +1,19 @@
 #about {
   height: 50rem;
   margin-top: 55px;
+  padding: 2rem;
 }
 
 #about h2::after {
   width: 7rem;
   transform: translateX(-10rem);
+}
+
+#about p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#about strong {
+  color: var(--main-color);
 }
