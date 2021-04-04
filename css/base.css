@@ -13,9 +13,26 @@ html {
 
 body {
   background-color: var(--third-color);
-  height: 800px;
 }
 
 a {
   text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: var(--dark-color);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+h2::after {
+  display: block;
+  content: "";
+  border-bottom: .3rem solid var(--main-color);
+  width: 4rem;
+  transform: translateX(-6rem);
+  margin-top: 4rem;
 }

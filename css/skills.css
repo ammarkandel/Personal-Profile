@@ -1,5 +1,22 @@
-#skills h1 {
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+#skills li {
+  font-family: 'Source Code Pro', monospace;
+  height: 5rem;
+  width: 10rem;
+  background-color: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  font-size: 3rem;
-  color: var(--main-color);
-} 
+  margin: 1rem;
+  border-radius: 5px;
+  border: 1px solid var(--main-color);
+}
+
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

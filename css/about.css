@@ -1,0 +1,9 @@
+#about {
+  height: 50rem;
+  margin-top: 55px;
+}
+
+#about h2::after {
+  width: 7rem;
+  transform: translateX(-10rem);
+}
