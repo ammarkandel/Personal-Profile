@@ -1,9 +1,10 @@
 header {
   height: 40rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 4rem;
+  padding-top: 4rem;
 }
 
 header h5 {

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-
 #skills li {
   font-family: 'Source Code Pro', monospace;
   height: 5rem;
@@ -10,8 +9,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 1rem;
-  border-radius: 5px;
+  margin: 3rem 5rem;
   border: 1px solid var(--main-color);
 }
 
