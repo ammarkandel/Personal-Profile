@@ -59,7 +59,13 @@
   align-items: center;
   justify-content: space-between;
   width: 20rem;
-  height: 5rem;
+  height: 8rem;
+}
+
+.live_links li:first-child {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--main-color);
 }
 
 .live_links a {
